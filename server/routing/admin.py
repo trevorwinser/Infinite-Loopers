@@ -9,11 +9,11 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 
 @admin_bp.route('/admin')
 def admin_dashboard():
-    return render_template('admin/admin-dashboard.html')
+    return render_template('admin-dashboard.html')
 
-@admin_bp.route('/admin-nav-bar')
+@admin_bp.route('/admin-navbar')
 def admin_nav_bar():
-    return render_template('admin/admin-nav-bar.html')
+    return render_template('admin-navbar.html')
 
 @admin_bp.route('/users')
 def get_users():

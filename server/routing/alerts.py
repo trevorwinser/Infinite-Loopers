@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, redirect, request
 import sqlite3
 
-alerts_bp = Blueprint('admin', __name__, template_folder="../templates", static_folder="../static")
+alerts_bp = Blueprint('alerts', __name__, template_folder="../templates", static_folder="../static")
 
 @alerts_bp.route('/alerts', methods=['GET', 'POST'])
 def alerts_page():

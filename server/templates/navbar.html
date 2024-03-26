@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HurriScan</title>
+    <link rel = "stylesheet" href= "{{url_for('static', filename='css/nav-bar-css.css')}}">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+
+<div class="navbar">
+
+    <div class="navbar-section">
+        <img src="{{url_for('static', filename='images/filter.png')}}" alt="Left Icon" class="navbar-icon" onclick="openNav()"> 
+       
+    </div>
+
+    <div class="navbar-title">
+        <img src="{{url_for('static', filename='images/radar logo/new-logo.png')}}" alt="Logo Icon" class = "logo-section" > 
+        <h1>HurriScan</h1>  
+    </div>
+    
+    <div class="navbar-section">
+        <img src="{{url_for('static', filename='images/profile_icon.png')}}" alt="Right Icon" class="navbar-icon" onclick="openRightNav()">
+    </div>
+
+</div>
+
+</body>
+</html>

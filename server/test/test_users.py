@@ -1,6 +1,6 @@
 import unittest
 from flask_testing import TestCase
-from server.main import app 
+from server.app import app 
 import sqlite3
 from sqlite_setup import create_table, create_users, main
 
